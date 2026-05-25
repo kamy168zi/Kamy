@@ -34,6 +34,48 @@ releases/gongzhonghao-typeset-skill-20260525.zip
 
 ## 安装方式
 
+### 一键安装口令
+
+Windows PowerShell 安装到 Claude / Codex：
+
+```powershell
+irm https://raw.githubusercontent.com/kamy168zi/Kamy/main/install.ps1 | iex
+```
+
+Windows PowerShell 安装到 OpenClaw：
+
+```powershell
+irm https://raw.githubusercontent.com/kamy168zi/Kamy/main/install.ps1 | iex -Target openclaw
+```
+
+Windows PowerShell 安装到自定义工具目录：
+
+```powershell
+irm https://raw.githubusercontent.com/kamy168zi/Kamy/main/install.ps1 | iex -SkillRoot "$HOME\.你的工具名\skills"
+```
+
+Mac / Linux 安装到 Claude / Codex：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/kamy168zi/Kamy/main/install.sh | bash
+```
+
+Mac / Linux 安装到 OpenClaw：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/kamy168zi/Kamy/main/install.sh | bash -s openclaw
+```
+
+Mac / Linux 安装到自定义工具目录：
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/kamy168zi/Kamy/main/install.sh | bash -s custom "$HOME/.你的工具名/skills"
+```
+
+安装完成后，重启 Claude / Codex / OpenClaw。
+
+### 手动安装
+
 下载或复制 `skills/gongzhonghao-typeset` 文件夹到：
 
 ```text
@@ -74,4 +116,3 @@ python skills\gongzhonghao-typeset\scripts\cli.py my-article.md --theme skills\g
 ```text
 skills/gongzhonghao-typeset/USER_GUIDE.md
 ```
-
