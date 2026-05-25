@@ -1,0 +1,34 @@
+{
+  "_comment": "清新阅读主题：浅蓝绿 + 暖色高亮，适合轻科普和日常分享。",
+  "brand": {
+    "name": "佳敏在折腾",
+    "magazine_suffix": "NOTES",
+    "chapter_stamp": "",
+    "issue_prefix": "VOL.",
+    "issue_number": 1,
+    "case_prefix": "PART",
+    "feature_label": "今日主题"
+  },
+  "colors": {
+    "bg": "#ffffff",
+    "main": "#247ba0",
+    "soft": "#8ecae6",
+    "soft_bg": "#edf8fc",
+    "img_border": "#d7eaf2",
+    "accent": "#f28f3b",
+    "highlight_pink": "#fff3d9",
+    "btn_bg": "#f4f7f8",
+    "step_bg": "#1f2933",
+    "text": "#344047",
+    "text_strong": "#172026",
+    "mute": "#6d7a80",
+    "faint": "#a8b5ba"
+  },
+  "typography": {
+    "body_font_size_px": 15,
+    "body_line_height": 1.92,
+    "chapter_number_size_px": 42,
+    "h3_size_px": 17,
+    "h3_bar_color": "main"
+  }
+}

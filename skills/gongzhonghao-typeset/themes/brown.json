@@ -1,0 +1,34 @@
+{
+  "_comment": "温暖棕色主题：适合生活方式、手作、读书笔记和个人随笔。",
+  "brand": {
+    "name": "佳敏在折腾",
+    "magazine_suffix": "NOTES",
+    "chapter_stamp": "",
+    "issue_prefix": "VOL.",
+    "issue_number": 1,
+    "case_prefix": "PART",
+    "feature_label": "今日主题"
+  },
+  "colors": {
+    "bg": "#ffffff",
+    "main": "#8a5a44",
+    "soft": "#c9a27e",
+    "soft_bg": "#f7f1ea",
+    "img_border": "#e3d2c2",
+    "accent": "#b36b4f",
+    "highlight_pink": "#f8eadf",
+    "btn_bg": "#f4efea",
+    "step_bg": "#2b211c",
+    "text": "#3f352f",
+    "text_strong": "#241b17",
+    "mute": "#7a6b60",
+    "faint": "#b8aaa0"
+  },
+  "typography": {
+    "body_font_size_px": 15,
+    "body_line_height": 1.95,
+    "chapter_number_size_px": 42,
+    "h3_size_px": 17,
+    "h3_bar_color": "main"
+  }
+}
